@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.space {
+    height: 2rem; /* Adjust height as needed */
+    width: 100%; /* Full width */
+}
+.card {
+    border-color: #0056b3;
+    width: 1000px;
+}
+.btn {
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary blue color */
+    border-color: #007bff;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Optional: Adds space between cards */
+}
+.cartbutton{
+    padding-right: 10px;
+}
+.card {
+    width: 13rem; /* Default card width */
+    height: 20rem;
+}
+.product-image {
+    width: 205px;
+    height: 206px;
+}
+@media (max-width: 1000px) {
+    html, body {
+        height: 120%;
+        margin: 0;
+    }
+    .card {
+        width: 45%; /* Full width on mobile devices */
+    }
+    .product-image {
+        width: 145px;
+        height: 145px;
+    }
+    .cartbutton{
+        padding-bottom: 10px;
+    }
+}
+
+footer {
+    background-color: rgba(43,48,53,255);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
